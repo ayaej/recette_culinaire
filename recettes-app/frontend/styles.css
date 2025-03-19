@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8e1;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff7043;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffcc80; /* Remet une couleur chaude comme avant */
+    border: 1px solid #ffb74d;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:nth-child(1) {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:nth-child(2) {
+    background-color: #f44336;
+    color: white;
+}
+
+li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Pour organiser les recettes en grille */
+#recette-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 0;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    input, textarea, select {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    li {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    form {
+        padding: 8px;
+    }
+
+    input, textarea, select {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 5px 7px;
+    }
+
+    li {
+        padding: 6px;
+        font-size: 12px;
+    }
+}

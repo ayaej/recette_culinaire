@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recettes de Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🍽 Recettes de Cuisine</h1>
+    </header>
+    <form id="recette-form">
+        <input type="hidden" id="recette-id"> <!-- Pour l'update -->
+        
+        <label for="nom">Nom de la recette :</label>
+        <input type="text" id="nom" required>
+    
+        <label for="ingredients">Ingrédients (séparés par une virgule) :</label>
+        <input type="text" id="ingredients" required>
+    
+        <label for="instructions">Instructions :</label>
+        <textarea id="instructions" required></textarea>
+    
+        <label for="tempsPreparation">Temps de préparation (minutes) :</label>
+        <input type="number" id="tempsPreparation" required>
+    
+        <label for="difficulte">Difficulté :</label>
+        <select id="difficulte">
+            <option value="Facile">Facile</option>
+            <option value="Moyen">Moyen</option>
+            <option value="Difficile">Difficile</option>
+        </select>
+    
+        <button type="submit">Ajouter la Recette</button>
+    </form>
+    <h2>Nos Recettes</h2>
+    <ul id="recette-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
