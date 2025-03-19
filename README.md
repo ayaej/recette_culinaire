@@ -1,4 +1,4 @@
-Il y a eu une erreur lors de la création des fichiers, mais tu peux les ajouter manuellement en suivant ces étapes :
+
 
 ⸻
 
@@ -41,8 +41,8 @@ Un projet CRUD complet permettant de gérer des recettes de cuisine via une API 
 
 ### 1️⃣ Cloner le projet
 ```sh
-git clone https://github.com/ton-repo/recettes_culinaires.git
-cd recettes_culinaires
+git clone https://github.com/ayaej/recette_culinaire/
+cd recette_culinaire
 
 2️⃣ Installer les dépendances
 
