@@ -1,42 +1,5 @@
 
 
-⸻
-
-📌 1. Créer un fichier .gitignore
-
-📁 Fichier : recettes-app/.gitignore
-Ajoute ceci pour ignorer node_modules et les fichiers sensibles :
-
-# Ignore les dépendances
-node_modules/
-
-# Ignore les fichiers d'environnement sensibles
-.env
-
-# Ignore les fichiers logs
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Ignore les fichiers système inutiles
-.DS_Store
-Thumbs.db
-
-
-
-⸻
-
-📌 2. Remplir le README.md
-
-📁 Fichier : recettes-app/README.md
-Copie ce contenu :
-
-# 🍽 Recettes Culinaires - API & Frontend
-
-Un projet CRUD complet permettant de gérer des recettes de cuisine via une API REST avec **Node.js, Express & MongoDB**, et un frontend en **HTML, CSS et JavaScript**.
-
----
-
 ## 🚀 Installation & Lancement
 
 ### 1️⃣ Cloner le projet
